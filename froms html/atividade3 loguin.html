@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loguin</title>
+<style>
+    h2{background: rgb(235, 227, 210);
+        text-align: center;
+        border-radius: 10px;
+        padding: 8px;
+        height: 20px;
+    
+    }
+
+    body{ 
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(245, 153, 4);
+    }
+    form{
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px rgba(0, 0, 0,1);
+    }
+    div{margin-bottom: 15px;
+        width: 320px;
+      
+   
+    }
+    label{display: block;
+        margin-bottom: 5px;
+    }
+    input{
+        width: 100%;
+        padding: 13px;
+        box-sizing: border-box;
+    }
+    button{ width: 100%;
+        padding: 8px;
+        background-color: rgb(240, 89, 7);
+        color: rgb(255, 248, 240);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{background-color: rgb(253, 154, 25);
+        transform: scale(1.1);
+    }
+</style>
+
+</head>
+
+<body>
+    <form action="">
+    <h2>LOGUIN</h2>
+<div>
+   <label for="usuario">nome usuario</label>
+   <input type="text" name="usuario" id="usuario"required placeholder="digite seu usuario">
+</div>
+<div>
+    <label for="email">e-mail</label>
+    <input type="email" name="email" id="email" placeholder="bemvindo@exemplo.com"><br><br>
+
+    <label for="senha">senha</label>
+    <input type="password" name="senha"id="senha"required placeholder="digite sua senha"><br><br>
+
+    <label for="senha">confirme sua senha</label>
+    <input type="password" name="senha"id="senha"required placeholder="confirme sua senha"><br><br>
+</div>
+<button type="submit">entrar</button>
+
+    </form>
+    
+</body>
+</html>
